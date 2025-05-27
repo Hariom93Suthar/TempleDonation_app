@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "141566649480",
+    "project_id": "sitarammandir-9312c",
+    "storage_bucket": "sitarammandir-9312c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141566649480:android:d601eddba219b4fca66b3d",
+        "android_client_info": {
+          "package_name": "com.example.sitaram_mandir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJXsisB7_1IgzixGfqNMbr0sq9O07d734"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
