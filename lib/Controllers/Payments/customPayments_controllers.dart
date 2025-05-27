@@ -6,6 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 import 'package:sitaram_mandir/Controllers/image_screen_controller.dart';
 import 'package:sitaram_mandir/Screens/UserProfile/image_screen.dart';
+import 'package:sitaram_mandir/Secrets/secrets_value.dart';
 
 class CustomPaymentController extends GetxController {
   late Razorpay _razorpay;
@@ -63,6 +64,7 @@ class CustomPaymentController extends GetxController {
     }
 
     var options = {
+      'key': '${testPayKey}',
       'amount': (paymentAmount * 100).toInt(),
       'currency': 'INR',
       'name': 'Custom Payment',

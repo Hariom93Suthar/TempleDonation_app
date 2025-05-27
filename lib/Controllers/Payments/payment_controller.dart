@@ -6,6 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 import 'package:sitaram_mandir/Controllers/image_screen_controller.dart';
 import 'package:sitaram_mandir/Screens/UserProfile/image_screen.dart';
+import 'package:sitaram_mandir/Secrets/secrets_value.dart';
 
 
 class RazorpayController extends GetxController {
@@ -123,7 +124,7 @@ class RazorpayController extends GetxController {
     }
 
     var options = {
-      'key': 'rzp_test_iVxLPdDDo7KoYl',
+      'key': '${testPayKey}',
       'amount': (paymentAmount * 100).toInt(),
       'currency': 'INR',
       'name': 'Ram Mandir Donation',
