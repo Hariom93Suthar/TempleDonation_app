@@ -1,4 +1,4 @@
-# sitaram_mandir
+# Tample Donation App
 
 A new Flutter project.
 
